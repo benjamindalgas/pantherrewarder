@@ -9,8 +9,8 @@ var studentnames6 = ["Edith", "Judith", "Michell", "Oscar", "Dulce", "Jordan", "
 function randomnumber2() { 
   var winner2 = studentnames2[Math.floor(Math.random() * studentnames2.length)];
   var x = Math.floor((Math.random() * 10) + 1);
-    setTimeout(function choosewho() {document.getElementById("winner").innerHTML = " Is " + winner2 + " ready to learn?";}, x * 300000);
-    setTimeout(function playit() {play();}, x * 300000);
+    setTimeout(function choosewho() {document.getElementById("winner").innerHTML = " Is " + winner2 + " ready to learn?";}, x * 200000);
+    setTimeout(function playit() {play();}, x * 200000);
     document.getElementById("demo").innerHTML = x;
 }
   
